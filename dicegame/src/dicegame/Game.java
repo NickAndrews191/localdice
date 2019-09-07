@@ -10,6 +10,9 @@ public class Game {
 	   String userinput = myObj.nextLine();
 	 	   
 	String yes =  "yes";
+	
+	
+	
 	if (yes.equals(userinput)) {  
       // get input from user
       Scanner scnr = new Scanner(System.in);
