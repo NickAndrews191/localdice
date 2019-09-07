@@ -14,13 +14,12 @@ public class Game {
    
       // generate the die roll 
       Random randGen = new Random();
-      int dieNum  = randGen.nextInt(6) + 1;
-      System.out.println("The die is a " + dieNum);
+      int dieNum1  = randGen.nextInt(6) + 1;
+      int dieNum2  = randGen.nextInt(6) + 1;
+      System.out.println("The die is a " + dieNum1 +" and " + dieNum2);
       
       
-      
-      
-      if ( enteredNum == dieNum ) {
+      if ( enteredNum == dieNum1 ) {
     	  int amountwon = enteredBet * 10;
     	  System.out.println("you win " + amountwon+" dollars!");    	  
       }
