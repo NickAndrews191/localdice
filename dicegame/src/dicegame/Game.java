@@ -25,7 +25,7 @@ public class Game {
       System.out.println("The die is a " + dieNum1 +" and " + dieNum2);
       
       
-      if ( ( enteredBet == dieNum1) && (enteredBet == dieNum2 )) {
+      if ( ( enteredNum == dieNum1) && (enteredNum == dieNum2 )) {
     	  int amountwon = enteredBet * 50;
     	  System.out.println("you win " + amountwon+" dollars!");    	  
       }
@@ -35,6 +35,14 @@ public class Game {
       }
         
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	else {
 	
@@ -51,7 +59,7 @@ public class Game {
 	      System.out.println("The die is a " + dieNum1 );
 	      
 	      
-	      if ( enteredBet == dieNum1) {
+	      if ( enteredNum == dieNum1) {
 	    	  int amountwon = enteredBet * 10;
 	    	  System.out.println("you win " + amountwon+" dollars!");    	  
 	      }
